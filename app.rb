@@ -18,4 +18,13 @@ class App < Sinatra::Base
     "#{@phrase} " * @number
   end
 
+  get 'say/:word1/:word2/:word3/:word4/:word5' do
+    @word1 = word1
+    @word2 = word2
+    @word3 = word3
+    @word4 = word4
+    @word5 = word5
+    
+  end
+  
 end
