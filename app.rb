@@ -24,7 +24,7 @@ class App < Sinatra::Base
     @word3 = word3
     @word4 = word4
     @word5 = word5
-    
+    "#{word1}"
   end
-  
+
 end
