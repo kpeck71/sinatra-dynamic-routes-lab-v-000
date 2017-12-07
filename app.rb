@@ -17,6 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     while x >= @number
       "#{@phrase}"
+      x+=1
     end
   end
 
